@@ -1028,7 +1028,7 @@
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/fondoprin.jpg"), url("images/overlay3.svg"), linear-gradient(0deg,#9dc66b 5%, #4fa49a 30%, #4361c2);
+		background-image: url("images/fondoprin.jpg"), url("images/overlay3.svg"), linear-gradient(0deg,#555756 5%, #383c3d 30%, #23272a);
 		background-position: center top,						center center,					center center;
 		background-size: cover,							cover,							cover;
 		overflow: hidden;
@@ -1185,7 +1185,7 @@
 			transition: -o-opacity 1s ease;
 			transition: -ms-opacity 1s ease;
 			transition: opacity 1s ease;
-			background-image: linear-gradient(0deg, #4fa49a, #4361c2);
+			background-image: linear-gradient(0deg, #555756, #23272a);
 			content: '';
 			height: 100%;
 			left: 0;
@@ -1224,7 +1224,7 @@
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/fondoprin.jpg"), url("images/overlay4.svg"), linear-gradient(0deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+		background-image: url("images/fondoprin.jpg"), url("images/overlay4.svg"), linear-gradient(0deg,#555756 5%, #383c3d 30%, #23272a);
 		background-position: center center,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
