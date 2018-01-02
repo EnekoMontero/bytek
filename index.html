@@ -1,184 +1,281 @@
-<!DOCTYPE HTML>
-
+﻿<!DOCTYPE html>
 <html>
-	<head>
-		<title>bytek</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="Sitio web de bytek, realizamos trabajos de ingeniería a medida" />
-		<meta name="keywords" content="PCB,ingeniería,robótica,bilbao,bizkaia,electronica,iot,prototipado,software,hardware,formación" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
-		</noscript>
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-		<link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
-		<link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
-		<link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
-		<link rel="manifest" href="/manifest.json">
-		<meta name="msapplication-TileColor" content="#ffffff">
-		<meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
-		<meta name="theme-color" content="#ffffff">
-	</head>
-	<body>
-		<!-- Header -->
-		
-			<section id="header">
-				<div class="inner">
-					<!--<span class="icon major fa-wifi"></span>-->
-					<section><img src="images/bytek1_white.png"></section>
-					<h1>Hola, somos <strong>bytek</strong>, la solución<br />
-					 de ingeniería que buscas.</h1>
-					 <h2><i>"make it simple"</i></h2>
-					<p>Nos encanta desarrollar, somos ingenieros por vocación<br/>
-					y realizamos productos a medida para nuestros clientes.</p>
-					<ul class="actions">
-						<li><a href="#one" class="button scrolly">Conócenos</a></li>
-					</ul>
-				</div>
-			</section>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Sitio web de bytek, realizamos trabajos de ingeniería a medida" />
+    <meta name="keywords" content="PCB,ingeniería,robótica,bilbao,bizkaia,electronica,iot,prototipado,software,hardware,formación" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--
+    Document Title
+    =============================================
+    -->
+    <title>bytek</title>
+    <!--
+    Favicons
+    =============================================
+    -->
+	<link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+    <!--
+    Stylesheets
+    =============================================
 
-		<!-- One -->
-			<section id="one" class="main style1 special">
-				<div class="container">
-					<!--<div class="row 150%">-->
-						<!--<div class="6u 12u$(medium)">-->
-							<header class="major">
-								<h2>Nuestra misión</h2>
-							</header>
-							<p>Somos <strong>bytek</strong>, una solución de ingeniería a medida. Somos un equipo de ingenieros jóvenes con experiencia. Tenemos inquietudes y nos encanta desarrollar productos desde cero para aportar soluciones innovadoras a la sociedad.</p>
-							<p>Creemos en la colaboración y en los equipos multidisciplinares, esto nos permite abarcar con garantías el proceso completo desde el inicio hasta el producto final.</p>
+    -->
+    <!-- Default stylesheets-->
+    <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template specific stylesheets-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
+    <link href="assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/lib/et-line-font/et-line-font.css" rel="stylesheet">
+    <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+    <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
+    <!-- Main stylesheet and color file-->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+  </head>
+  <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+    <main>
+      <div class="page-loader">
+        <div class="loader">Cargando...</div>
+      </div>
+      <nav class="navbar navbar-custom navbar-fixed-top navbar-transparent" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Menu</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html"><img src="./icons/favicon-16x16.png"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="custom-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown"><a href="#">bytek</a></li>
+              <li class="dropdown"><a href="./phoenix"><i class="fa fa-microchip"></i> Phoenix</a></li>
+              <li class="dropdown"><a href="./phoenix#bytekeducation"><i class="fa fa-graduation-cap"></i> Bytek Education</a></li>
+              <li class="dropdown"><a href="mailto:hello@bytek.info"><i class="fa fa-envelope"></i> Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="home-section home-parallax home-fade home-full-height bg-dark-30" id="home" data-background="assets/images/fondoprin.jpg">
+        <div class="video-player" data-property="{videoURL:'https://www.youtube.com/watch?v=YJPgoOCOBFg&t=95s', containment:'.home-section', startAt:20, mute:true, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}"></div>
+        <div class="titan-caption">
+          <div class="caption-content">
+	    <img src="./icons/android-icon-48x48.png"></img>
+            <div class="font-alt mb-40 titan-title-size-4">bytek</div>
+	    <div class="font-alt mb-30 titan-title-size-1">make it simple</div>
+	    <a class="section-scroll btn btn-border-w btn-round" href="#mision">Conócenos</a>
+          </div>
+        </div>
+      </section>
+      <div class="main">
+      <section class="module-extra-small bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
+                <div class="callout-text font-alt">
+                  <h4 style="margin-top: 0px; font-;">Phoenix - controlar servos nunca fue tan fácil</h4>
+                  <p style="margin-bottom: 0px;">Echa un vistazo a nuestro último proyecto</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="callout-btn-box"><a class="btn btn-w btn-round" href="./phoenix">Ver más</a></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="module pt-0 pb-0" id="mision">
+                  <div class="row position-relative m-0">
+                    <div class="col-xs-12 col-md-6 side-image" data-background="assets/images/tarjeta.jpg"></div>
+                    <div class="col-xs-12 col-md-6 col-md-offset-6 side-image-text">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <h2 class="module-title font-alt align-left">Nuestra misión</h2>
+                          <div class="module-subtitle font-serif align-left">Nos encanta desarrollar, somos ingenieros por vocación y realizamos productos a medida para nuestros clientes.</div>
+                          <p>Somos <strong>bytek</strong>, una solución de ingeniería a medida. Somos un equipo de ingenieros jóvenes con experiencia. Tenemos inquietudes y nos encanta desarrollar productos desde cero para aportar soluciones innovadoras a la sociedad.</p>
+            							<p>Creemos en la colaboración y en los equipos multidisciplinares, esto nos permite abarcar con garantías el proceso completo desde el inicio hasta el producto final.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+        <section class="module bg-dark-60" data-background="assets/images/fondosec.jpg">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Nuestros campos de especialización</h2>              </div>
+            </div>
+            <div class="row multi-columns-row">
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                  <p>La inversión y esfuerzo dedicado durante estos años nos ha permitido formarnos y poder ofrecer soluciones en los campos que se presentan a continuación.</p>
+							    <p>Todo esto ha sido gracias a los proyectos en los que hemos tomado parte y a los clientes que han confiado en nosotros. Siempre sin olvidar nuestra misión.</p>
+                  <p> <br/></p>
+                  <div class="row multi-columns-row">
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                      <div class="module-icon"><i class="fa fa-code"></i></div>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                      <div class="module-icon"><i class="fa fa-cogs"></i></div>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                      <div class="module-icon"><i class="fa fa-laptop"></i></div>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                      <div class="module-icon"><i class="fa fa-wifi"></i></div>
+                    </div>
+                    </div>
+                  </div>
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <!--<div class="post-header font-alt">-->
+                  <p style = "text-align: center;">IoT (Internet of Things) y Smart Cities</p>
+                  <hr/>
+                <!--</div>-->
+                <!--<div class="post-header font-alt">-->
+                  <p style = "text-align: center;">Industria 4.0</p>
+                  <hr/>
+                <!--</div>-->
+                <!--<div class="post-header font-alt">-->
+                  <p style = "text-align: center;">Diseño y Prototipado Electrónico</p>
+                  <hr/>
+                <!--</div>-->
+                <!--<div class="post-header font-alt">-->
+                  <p style = "text-align: center;">Soluciones Software</p>
+                  <hr/>
+                <!--</div>-->
+                <!--<div class="post-header font-alt">-->
+                  <p style = "text-align: center;">Robótica Educativa y Formación Tecnológica</p>
+                <!--</div>-->
+</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="module" id="metodologia">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Nuestra metodología</h2>
+                <div class="module-subtitle font-serif">Identificando desde un primer momento el objetivo podemos adaptar el producto final a las necesidades de nuestros clientes, creando soluciones únicas a medida.</div>
+              </div>
+            </div>
+            <div class="row multi-columns-row post-columns">
+              <div class="col-sm-12 col-md-3 col-lg-3">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><img src="assets/images/pcb.jpg" alt="pcb"/></div>
+                  <div class="post-header font-alt">
+                    <h2 class="post-title">Diseño y prototipado electrónico</h2>
+                  </div>
+                  <div class="post-entry">
+                    <p>No siempre las soluciones comerciales son las más adecuadas para abordar un proyecto determinado. Mediante el prototipado electrónico somos capaces de buscar, diseñar y optimizar la solución cumpliendo los requerimientos técnicos de nuestros clientes.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-3 col-lg-3">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><img src="assets/images/codigo.jpg" alt="codigo"/></div>
+                  <div class="post-header font-alt">
+                    <h2 class="post-title">Soluciones software a medida</h2>
+                  </div>
+                  <div class="post-entry">
+                    <p>Desarrollamos para equipos distribuidos conectados a la red, GNU/Linux, micro-controladores, Internet of things... Conocemos diferentes lenguajes de programación y utilizamos los que mejor se adaptan a cada proyecto.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-3 col-lg-3">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><img src="assets/images/producto.jpg" alt="producto"/></div>
+                  <div class="post-header font-alt">
+                    <h2 class="post-title">Desarrollo de producto integral</h2>
+                  </div>
+                  <div class="post-entry">
+                    <p>Todo lo que hemos contado hasta ahora nos permite realizar el proceso completo de crear y llevar un producto al mercado. Nos especializamos en la ingeniería de producto pero sin dejar de lado el análisis de mercado.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-3 col-lg-3">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><img src="assets/images/robot.jpg" alt="robot"/></div>
+                  <div class="post-header font-alt">
+                    <h2 class="post-title">Robótica educativa y formación tecnológica</h2>
+                  </div>
+                  <div class="post-entry">
+                    <p>La experiencia adquirida gracias a nuestra participación activa en <a href="http://bilbaodynamics.com/">Bilbao Dynamics</a> nos permite conocer las últimas tendencias en materia educativa STEAM (Science, Technology, Engineering, Arts & Maths).</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-						<!--</div>-->
-						<!--<div class="6u$ 12u$(medium) important(medium)">
-							<span class="image fit"><img src="images/nosotros.jpg" alt="" /></span>
-						</div>-->
-					</div>
-				</div>
-			</section>
-
-		<!-- Two -->
-			<section id="two" class="main style2 special">
-				<div class="container">
-				<header class="major">
-						<h2>Nuestros campos de <br/>especialización</h2>
-					</header>
-					<div class="row 150%">
-						<div class="6u 12u$(medium)">
-							<p>La inversión y esfuerzo dedicado durante estos años nos ha permitido formarnos y poder ofrecer soluciones en los campos que se presentan a continuación.</p>
-							<p>Todo esto ha sido gracias a los proyectos en los que hemos tomado parte y a los clientes que han confiado en nosotros. Siempre sin olvidar nuestra misión.</p>
-						</div>
-						<div class="6u$ 12u$(medium)">
-							<ul class="alt">
-								<li>IoT <i>(Internet of Things)</i> y Smart Cities</li>
-								<li>Industria 4.0.</li>
-								<li>Diseño y Prototipado Electrónico</li>
-								<li>Soluciones Software</li>
-								<li>Robótica Educativa y Formación Tecnológica</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="container">
-				<ul class="major-icons">
-					<li><span class="icon style7 major fa-code"></span></li>
-					<li><span class="icon style7 major fa-cogs"></span></li>
-					<li><span class="icon style7 major fa-laptop"></span></li>
-					<li><span class="icon style7 major fa-wifi"></span></li>
-							</ul>
-							</div>
-			</section>
-
-		<!-- Three -->
-			<section id="three" class="main style1 special">
-				<div class="container">
-					<header class="major">
-						<h2>Nuestra metodología</h2>
-					</header>
-					<p>Identificando desde un primer momento el objetivo podemos adaptar el producto final a</br>
-					las necesidades de nuestros clientes, creando soluciones únicas a medida. </p>
-					<div class="row 150%">
-						<div class="3u 12u$(medium)">
-							<span class="image fit"><img src="images/pcb.jpg" alt="" /></span>
-							<h3>Diseño y prototipado electrónico</h3>
-							<p>No siempre las soluciones comerciales son las más adecuadas para abordar un proyecto determinado. Mediante el prototipado electrónico somos capaces de buscar, diseñar y optimizar la solución cumpliendo los requerimientos técnicos de nuestros clientes.</p>
-							<!--<ul class="actions">
-								<li><a href="#" class="button">More</a></li>
-							</ul> -->
-						</div>
-						<div class="3u 12u$(medium)">
-							<span class="image fit"><img src="images/codigo.jpg" alt="" /></span>
-							<h3>Soluciones software a medida</h3>
-							<p>Desarrollamos para equipos distribuidos conectados a la red, GNU/Linux, micro-controladores, Internet of things... Conocemos diferentes lenguajes de programación y utilizamos los que mejor se adaptan a cada proyecto.</p>
-						</div>
-						<div class="3u 12u$(medium)">
-							<span class="image fit"><img src="images/producto.jpg" alt="" /></span>
-							<h3>Desarrollo de producto integral</h3>
-							<p>Todo lo que hemos contado hasta ahora nos permite realizar el proceso completo de crear y llevar un producto al mercado. Nos especializamos en la ingeniería de producto pero sin dejar de lado el análisis de mercado.</p>
-						</div>
-						<div class="3u 12u$(medium)">
-							<span class="image fit"><img src="images/robot.jpg" alt="" /></span>
-							<h3>Robótica educativa y formación tecnológica</h3>
-							<p>La experiencia adquirida gracias a nuestra participación activa en <a href="http://bilbaodynamics.com/">Bilbao Dynamics</a> nos permite conocer las últimas tendencias en materia educativa STEAM (Science, Technology, Engineering, Arts & Maths).</p>
-						</div>
-					</div>
-				</div>
-			</section>
-
-		<!-- Four -->
-			<section id="four" class="main style2 special">
-				<div class="container">
-					<header class="major">
-						<h2>Conócenos mejor</h2>
-					</header>
-					<ul class="major-icons">
-								<li><span class="icon style7 major fa-coffee"></span></li>
-					</ul>
-					<p>Si quieres saber más de lo que hacemos, plantearnos alguna idea o símplemente tomar un café para conocernos, <br/>no dudes en ponerte en contacto con nosotros.</p>
-					<ul class="actions">
-						<li><a href="mailto:hello@bytek.info" class="button scrolly">Escríbenos</a></li>
-					</ul>
-					
-				</div>
-			</section>
-
-		<!-- Five -->
-		
-			<section id="five" class="main style1">
-				<div class="container">
-					<header class="major special">
-						<h2><strong>bytek</strong> - <em>"make it simple"</em></h2>
-					</header>
-			</section>
-
-		<!-- Footer -->
-			<section id="footer">
-				<ul class="icons">
-					<li><a href="https://www.linkedin.com/company/11275999/" class="icon alt fa-linkedin"><span class="label">Linkedin</span></a></li>
-					<li><a href="https://twitter.com/bytekinfo" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="https://github.com/EnekoMontero/bytek" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="mailto:hello@bytek.info" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; bytek 2017</li><li><a href="https://www.linkedin.com/in/joseluisunibaso/">Jose Luis Unibaso</a> y <a href="https://www.linkedin.com/in/enekomontero/">Eneko Montero</a></li>
-				</ul>
-			</section>
-
-	</body>
+        <section class="module parallax-bg module-video bg-dark-30" data-background="assets/images/cafe.png">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="video-box">
+              <div class="module-icon"><i class="fa fa-coffee"></i></div>
+              <div class="col-sm-6 col-sm-offset-3">
+                <div class="video-title font-alt">Conócenos mejor</div>
+                <div class="video-subtitle font-alt">Si quieres saber más de lo que hacemos, plantearnos alguna idea o simplemente tomar un café para conocernos, no dudes en poner en contacto con nosotros.</div>
+                <br/>
+                <a class="btn btn-border-w btn-round" href="mailto:hello@bytek.info">Escríbenos</a>
+</div>
+              </div>
+</div>
+            </div>
+          </div>
+          <div class="video-player" data-property="{videoURL:'https://www.youtube.com/watch?v=i_XV7YCRzKo', containment:'.module-video', startAt:3, mute:true, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}"></div>
+        </section>
+        <hr class="divider-d">
+        <footer class="footer bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="copyright font-alt">&copy; 2017&nbsp;<a href="index.html">bytek</a> | <a href="https://www.linkedin.com/in/joseluisunibaso/">Jose Luis Unibaso</a> y <a href="https://www.linkedin.com/in/enekomontero/">Eneko Montero</a></p>
+              </div>
+              <div class="col-sm-6">
+                <div class="footer-social-links"><a href="https://www.linkedin.com/company/11275999/"><i class="fa fa-linkedin"></i></a><a href="https://twitter.com/bytekinfo"><i class="fa fa-twitter"></i></a><a href="https://github.com/bytekengineering"><i class="fa fa-github"></i></a><a href="mailto:hello@bytek.info"><i class="fa fa-envelope"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
+    </main>
+    <!--
+    JavaScripts
+    =============================================
+    -->
+    <script src="assets/lib/jquery/dist/jquery.js"></script>
+    <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/lib/wow/dist/wow.js"></script>
+    <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
+    <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
+    <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
+    <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="assets/lib/smoothscroll.js"></script>
+    <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
