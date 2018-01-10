@@ -1,6 +1,12 @@
 /*--------------------------------------------------------------
 	Common
 --------------------------------------------------------------*/
+@font-face {
+	font-family: 'gillsansmt';
+	src: url('./gillsansmt.eot');
+	src: local('./gillsansmt'), url('./gillsansmt.woff') format('woff'), url('./gillsansmt.ttf') format('truetype');
+}
+
 html {
   overflow-y: scroll;
   overflow-x: hidden;
@@ -888,7 +894,7 @@ blockquote {
 }
 
 .font-alt {
-  font-family: "Gill Sans MT";
+  font-family: "gillsansmt", "Gill Sans MT", "Roboto", sans-serif;
 }
 
 .font-serif {
