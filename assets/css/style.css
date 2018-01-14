@@ -2854,8 +2854,8 @@ Google map
     opacity: .8;
   }
   .titan-title-size-3 {
-    letter-spacing: 4px;
-    font-size: 26px;
+    letter-spacing: 0px;
+    font-size: 44px;
   }
   .titan-title-size-4 {
     letter-spacing: 6px;
