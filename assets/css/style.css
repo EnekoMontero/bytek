@@ -714,7 +714,7 @@ a,
 }
 
 .btn.btn-d {
-  background: rgba(17, 17, 17, 0.8);
+  background: rgba(7, 36, 118, 0.8);
   color: #fff;
 }
 
@@ -735,13 +735,13 @@ a,
 
 .btn-border-d {
   background: transparent;
-  border: 1px solid #111111;
+  border: 1px solid #072476;
   color: #111;
 }
 
 .btn.btn-border-d:hover,
 .btn.btn-border-d:focus {
-  background: #111111;
+  background: #072476;
   color: #fff;
 }
 
