@@ -78,7 +78,7 @@ var getYTPVideoID = function( url ) {
 			mobileFallbackImage: null,
 			gaTrack: true,
 			optimizeDisplay: true,
-			anchor: "center,center", // top,bottom,left,right combined in pair
+			anchor: "bottom,right", // top,bottom,left,right combined in pair
 			onReady: function( player ) {},
 			onError: function( player, err ) {}
 		},
